@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sedan+SC&display=swap');
+
+*{
+   margin: 0; 
+   padding: 0;
+   background: #1A1A1A;
+   font-family: "Poppins", sans-serif;
+
+}
+
+.logo img{
+   width: 125px;
+   height: 125px;
+}
+nav ul li{
+   list-style: none;
+   font-size: 22px;
+}
+nav ul li a:hover{
+   color: #0DCAF0 !important;
+}
+.person{
+   width: 300px;
+   height: 430px;
+}
+.person_left h1{
+   color: #0DCAF0 ;
+   font-size: 70px;
+}
+.person_left h5{
+   font-size: 24px;
+   font-weight: 500;
+}
+.person_left p{
+   font-size: 20px;
+}
+.person_div{
+   width: 90% ;
+   margin: 0 auto !important;
+}
+.person_div button,nav button,form button{
+   background-color: #0DCAF0;
+}
+.person_left i,footer i{
+   font-size: 32px;
+   color: #0DCAF0;
+}
+.person_left button i,nav button i{
+   font-size: 20px;
+   color: black;
+   background-color: #0DCAF0;
+}
+.portfolio_div,.qualification{
+   width: 70%;
+   margin: 20px auto;
+}
+.portfolio_div button,.qualification button{
+   background-color: #6C757D;
+}
+.portfolio_div h3{
+   font-size: 30px;
+   color: #0DCAF0
+}
+.portfolio_div img{
+   /* height: 400px; */
+}
+.portfolio_div .carousel{
+   width: 50%;
+}
+.qualification h3{
+   font-size: 48px;
+   color: #0DCAF0
+}
+.qualification p{
+   font-size: 24px;
+}
+form div{
+   border-color: 2px solid #767676;
+   border-radius: 8px;
+}
+form div input{
+   border-color: 2px solid #767676;
+   border-radius: 4px;
+   margin: 6px 0;
+}
+textarea{
+   border-color: 2px solid #767676;
+   border-radius: 4px;
+   resize: none;
+}
+footer{
+   border-color: 2px solid #767676;
+   margin-top: 40px;
+   padding: 20px 0;
+}
+form div{
+   box-shadow: 0 4px 8px 0 rgba(121, 120, 120, 0.2), 0 6px 20px 0 rgba(110, 110, 110, 0.19);
+}
+
+@media only screen and (max-width: 992px) {
+   .logo img{
+      width: 50px;
+      height: 50px;
+   }
+    nav ul li{
+       font-size: 18px ;
+    }
+   .person_left h1{
+       font-size: 50px;
+    }
+   .person_left h5{
+       font-size: 20px;
+    }
+   .person_left p{
+       font-size: 18px;
+    }
+   .person_div{
+       width: 100%;
+    }
+    .portfolio_div,.qualification{
+      width: 90%;
+   }
+   .portfolio_div h3{
+      font-size: 24px;
+   }
+   .qualification h3{
+      font-size: 30px;
+   }
+   .qualification p{
+      font-size: 20px;
+   }
+   .qualification {
+      flex-direction: column;
+      justify-content: start;
+      align-items: flex-start;
+   }
+   .person_div button,nav button,form button{
+       background-color: #0DCAF0;
+    }
+   .person_left i,footer i{
+       font-size: 24px;
+       color: #0DCAF0;
+    }
+   .person_left button i,nav button i{
+       font-size: 18px;
+       color: black;
+       background-color: #0DCAF0;
+    }
+    .portfolio_div .carousel{
+      width: 100%;
+   }
+   form div{
+      width: 90%;
+      margin: auto;
+   }
+}
+@media only screen and (max-width: 576px){
+   nav ul li{
+      font-size: 14px ;
+   }
+   nav a button{
+      font-size: 14px ;
+   }
+   .person_left h1{
+      font-size: 30px;
+   }
+  .person_left h5{
+      font-size: 16px;
+   }
+  .person_left p{
+      font-size: 14px;
+   }
+   .portfolio_div,.qualification{
+      width: 96%;
+   }
+   .portfolio_div .carousel{
+      width: 100%;
+   }
+   .portfolio_div h3{
+      font-size: 22px;
+   }
+   .qualification h3{
+      font-size: 24px;
+   }
+   .qualification p{
+      font-size: 16px;
+   }
+   form div{
+      width: 90%;
+      margin: auto;
+   }
+}
